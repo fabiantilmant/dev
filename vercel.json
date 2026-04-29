@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "env": {
+    "ANTHROPIC_API_KEY": "@anthropic-api-key",
+    "FACEBOOK_APP_SECRET": "@facebook-app-secret",
+    "FACEBOOK_APP_ID": "@facebook-app-id",
+    "APP_URL": "@app-url"
+  }
+}
